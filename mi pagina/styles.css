@@ -1,6 +1,4 @@
-/* ===========================
-   Paleta: negro, dorado y blanco
-   =========================== */
+ 
 :root {
   --negro: #0b0b0b;
   --negro-suave: #161616;
@@ -35,8 +33,7 @@ a:hover { color: var(--dorado-claro); }
 .text-dorado { color: var(--dorado) !important; }
 .text-suave { color: var(--gris-texto) !important; }
 
-/* ---------- Navbar ---------- */
-.navbar {
+ .navbar {
   background-color: rgba(11, 11, 11, 0.95);
   border-bottom: 1px solid var(--dorado-oscuro);
   backdrop-filter: blur(6px);
@@ -82,8 +79,7 @@ a:hover { color: var(--dorado-claro); }
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28212,175,55,1%29' stroke-linecap='round' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-/* ---------- Encabezados de sección ---------- */
-.titulo-seccion {
+ .titulo-seccion {
   color: var(--blanco);
   font-weight: 700;
   margin-bottom: 0.5rem;
@@ -104,8 +100,7 @@ a:hover { color: var(--dorado-claro); }
   background: radial-gradient(circle at top, #1d1a10 0%, var(--negro) 70%);
 }
 
-/* ---------- Hero (Inicio) ---------- */
-.hero {
+ .hero {
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -151,8 +146,7 @@ a:hover { color: var(--dorado-claro); }
   margin: 0 auto;
 }
 
-/* ---------- Botones ---------- */
-.btn-dorado {
+ .btn-dorado {
   background: linear-gradient(135deg, var(--dorado-oscuro), var(--dorado));
   color: var(--negro);
   font-weight: 600;
@@ -183,8 +177,7 @@ a:hover { color: var(--dorado-claro); }
   color: var(--negro);
 }
 
-/* ---------- Tarjetas ---------- */
-.tarjeta {
+ .tarjeta {
   background-color: var(--negro-suave);
   border: 1px solid var(--negro-borde);
   border-radius: 14px;
@@ -237,8 +230,7 @@ a:hover { color: var(--dorado-claro); }
   margin: 0 0.3rem 0.3rem 0;
 }
 
-/* Proyecto destacado (Rueda Libre) */
-.proyecto-destacado {
+ .proyecto-destacado {
   border: 1px dashed var(--dorado);
   border-radius: 14px;
   background: linear-gradient(135deg, rgba(212, 175, 55, 0.07), transparent);
@@ -246,8 +238,7 @@ a:hover { color: var(--dorado-claro); }
   text-align: center;
 }
 
-/* ---------- Secciones ---------- */
-.seccion { padding: 5rem 0; }
+ .seccion { padding: 5rem 0; }
 .seccion-alterna { background-color: var(--negro-suave); }
 
 .dato-numero {
@@ -257,8 +248,7 @@ a:hover { color: var(--dorado-claro); }
   font-weight: 700;
 }
 
-/* ---------- Contacto ---------- */
-.form-control {
+ .form-control {
   background-color: var(--negro);
   border: 1px solid var(--negro-borde);
   color: var(--blanco);
@@ -284,8 +274,7 @@ a:hover { color: var(--dorado-claro); }
 
 .dato-contacto .icono-circulo { margin-bottom: 0; flex-shrink: 0; }
 
-/* ---------- Redes y footer ---------- */
-.redes a {
+ .redes a {
   display: inline-flex;
   align-items: center;
   justify-content: center;

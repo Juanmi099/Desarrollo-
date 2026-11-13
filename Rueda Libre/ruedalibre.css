@@ -1,18 +1,14 @@
-/* Estilos propios de Rueda Libre (se cargan después de Bootstrap) */
-
 body {
 
     width: 100vw;
     height: 100vh;
 }
 
-/* Barra de arriba y pie de página con el verde del logo */
-.navbarnegro {
+ .navbarnegro {
     background-color: #000000;
 }
 
-/* Textos y botones naranja como el logo */
-.texto-naranja {
+ .texto-naranja {
     color: #0bd4e2;
 }
 
@@ -25,4 +21,5 @@ body {
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
+
 }
